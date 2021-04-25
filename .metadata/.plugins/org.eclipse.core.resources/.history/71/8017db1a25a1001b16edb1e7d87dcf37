@@ -1,0 +1,61 @@
+package com.gaju.service;
+import java.util.*;
+
+import com.gaju.db.OperationInterfaceI;
+import com.gaju.db.OperationInterfaceimpl;
+
+public class OperationServiceInterfaceImpl implements OperationServiceInterfaceI {
+
+	Scanner sc = new Scanner(System.in);
+	OperationInterfaceI odb = new OperationInterfaceimpl();
+	@Override
+	public void addCourse() 
+	{
+		
+		
+	}
+
+	@Override
+	public void viewCourse() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addFaculty() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void viewFaculty() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addBatch() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void viewbatch() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addStudent() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void viewStudent() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

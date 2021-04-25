@@ -1,0 +1,5 @@
+package com.gaju.service;
+
+public class OperationServiceInterfaceImpl {
+
+}
